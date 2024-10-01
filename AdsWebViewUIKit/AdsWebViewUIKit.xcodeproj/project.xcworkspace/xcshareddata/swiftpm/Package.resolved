@@ -1,0 +1,15 @@
+{
+  "originHash" : "78ee25642ee4bdca1b3cab0ad517ad1105c84bf01b4a4328757f233ee5c55991",
+  "pins" : [
+    {
+      "identity" : "swift-ads-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CleverAdvertising/swift-ads-package",
+      "state" : {
+        "revision" : "e954ed3aee627b270a689d8913cde8ecca9198d9",
+        "version" : "1.0.8"
+      }
+    }
+  ],
+  "version" : 3
+}

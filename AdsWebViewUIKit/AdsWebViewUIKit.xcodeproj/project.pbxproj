@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FE528A92CAAFF0C0053C7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE528A82CAAFF0C0053C7BB /* AppDelegate.swift */; };
+		7FE528AB2CAAFF0C0053C7BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE528AA2CAAFF0C0053C7BB /* SceneDelegate.swift */; };
+		7FE528B22CAAFF0D0053C7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE528B12CAAFF0D0053C7BB /* Assets.xcassets */; };
+		7FE528B52CAAFF0D0053C7BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7FE528B42CAAFF0D0053C7BB /* Base */; };
+		7FE528C02CAAFF0D0053C7BB /* AdsWebViewUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE528BF2CAAFF0D0053C7BB /* AdsWebViewUIKitTests.swift */; };
+		7FE528CA2CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE528C92CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.swift */; };
+		7FE528CC2CAAFF0D0053C7BB /* AdsWebViewUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE528CB2CAAFF0D0053C7BB /* AdsWebViewUIKitUITestsLaunchTests.swift */; };
+		7FE528DC2CAB089E0053C7BB /* swift-ads-package in Frameworks */ = {isa = PBXBuildFile; productRef = 7FE528DB2CAB089E0053C7BB /* swift-ads-package */; };
+		7FE528DE2CAB08AF0053C7BB /* swift-ads-package in Frameworks */ = {isa = PBXBuildFile; productRef = 7FE528DD2CAB08AF0053C7BB /* swift-ads-package */; };
+		7FE528E02CAB08B90053C7BB /* swift-ads-package in Frameworks */ = {isa = PBXBuildFile; productRef = 7FE528DF2CAB08B90053C7BB /* swift-ads-package */; };
+		7FE528E42CABF4C90053C7BB /* AdsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE528E32CABF4C90053C7BB /* AdsWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FE528BC2CAAFF0D0053C7BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE5289D2CAAFF0C0053C7BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE528A42CAAFF0C0053C7BB;
+			remoteInfo = AdsWebViewUIKit;
+		};
+		7FE528C62CAAFF0D0053C7BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE5289D2CAAFF0C0053C7BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE528A42CAAFF0C0053C7BB;
+			remoteInfo = AdsWebViewUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FE528A52CAAFF0C0053C7BB /* AdsWebViewUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdsWebViewUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE528A82CAAFF0C0053C7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FE528AA2CAAFF0C0053C7BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FE528B12CAAFF0D0053C7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FE528B42CAAFF0D0053C7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FE528B62CAAFF0D0053C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE528BB2CAAFF0D0053C7BB /* AdsWebViewUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsWebViewUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE528BF2CAAFF0D0053C7BB /* AdsWebViewUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsWebViewUIKitTests.swift; sourceTree = "<group>"; };
+		7FE528C52CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsWebViewUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE528C92CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsWebViewUIKitUITests.swift; sourceTree = "<group>"; };
+		7FE528CB2CAAFF0D0053C7BB /* AdsWebViewUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsWebViewUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FE528E32CABF4C90053C7BB /* AdsWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE528A22CAAFF0C0053C7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE528DC2CAB089E0053C7BB /* swift-ads-package in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE528B82CAAFF0D0053C7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE528DE2CAB08AF0053C7BB /* swift-ads-package in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE528C22CAAFF0D0053C7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE528E02CAB08B90053C7BB /* swift-ads-package in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FE5289C2CAAFF0C0053C7BB = {
+			isa = PBXGroup;
+			children = (
+				7FE528A72CAAFF0C0053C7BB /* AdsWebViewUIKit */,
+				7FE528BE2CAAFF0D0053C7BB /* AdsWebViewUIKitTests */,
+				7FE528C82CAAFF0D0053C7BB /* AdsWebViewUIKitUITests */,
+				7FE528A62CAAFF0C0053C7BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE528A62CAAFF0C0053C7BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE528A52CAAFF0C0053C7BB /* AdsWebViewUIKit.app */,
+				7FE528BB2CAAFF0D0053C7BB /* AdsWebViewUIKitTests.xctest */,
+				7FE528C52CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE528A72CAAFF0C0053C7BB /* AdsWebViewUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7FE528A82CAAFF0C0053C7BB /* AppDelegate.swift */,
+				7FE528AA2CAAFF0C0053C7BB /* SceneDelegate.swift */,
+				7FE528B12CAAFF0D0053C7BB /* Assets.xcassets */,
+				7FE528B32CAAFF0D0053C7BB /* LaunchScreen.storyboard */,
+				7FE528B62CAAFF0D0053C7BB /* Info.plist */,
+				7FE528E32CABF4C90053C7BB /* AdsWebViewController.swift */,
+			);
+			path = AdsWebViewUIKit;
+			sourceTree = "<group>";
+		};
+		7FE528BE2CAAFF0D0053C7BB /* AdsWebViewUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE528BF2CAAFF0D0053C7BB /* AdsWebViewUIKitTests.swift */,
+			);
+			path = AdsWebViewUIKitTests;
+			sourceTree = "<group>";
+		};
+		7FE528C82CAAFF0D0053C7BB /* AdsWebViewUIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE528C92CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.swift */,
+				7FE528CB2CAAFF0D0053C7BB /* AdsWebViewUIKitUITestsLaunchTests.swift */,
+			);
+			path = AdsWebViewUIKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE528A42CAAFF0C0053C7BB /* AdsWebViewUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE528CF2CAAFF0D0053C7BB /* Build configuration list for PBXNativeTarget "AdsWebViewUIKit" */;
+			buildPhases = (
+				7FE528A12CAAFF0C0053C7BB /* Sources */,
+				7FE528A22CAAFF0C0053C7BB /* Frameworks */,
+				7FE528A32CAAFF0C0053C7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdsWebViewUIKit;
+			packageProductDependencies = (
+				7FE528DB2CAB089E0053C7BB /* swift-ads-package */,
+			);
+			productName = AdsWebViewUIKit;
+			productReference = 7FE528A52CAAFF0C0053C7BB /* AdsWebViewUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FE528BA2CAAFF0D0053C7BB /* AdsWebViewUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE528D22CAAFF0D0053C7BB /* Build configuration list for PBXNativeTarget "AdsWebViewUIKitTests" */;
+			buildPhases = (
+				7FE528B72CAAFF0D0053C7BB /* Sources */,
+				7FE528B82CAAFF0D0053C7BB /* Frameworks */,
+				7FE528B92CAAFF0D0053C7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE528BD2CAAFF0D0053C7BB /* PBXTargetDependency */,
+			);
+			name = AdsWebViewUIKitTests;
+			packageProductDependencies = (
+				7FE528DD2CAB08AF0053C7BB /* swift-ads-package */,
+			);
+			productName = AdsWebViewUIKitTests;
+			productReference = 7FE528BB2CAAFF0D0053C7BB /* AdsWebViewUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FE528C42CAAFF0D0053C7BB /* AdsWebViewUIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE528D52CAAFF0D0053C7BB /* Build configuration list for PBXNativeTarget "AdsWebViewUIKitUITests" */;
+			buildPhases = (
+				7FE528C12CAAFF0D0053C7BB /* Sources */,
+				7FE528C22CAAFF0D0053C7BB /* Frameworks */,
+				7FE528C32CAAFF0D0053C7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE528C72CAAFF0D0053C7BB /* PBXTargetDependency */,
+			);
+			name = AdsWebViewUIKitUITests;
+			packageProductDependencies = (
+				7FE528DF2CAB08B90053C7BB /* swift-ads-package */,
+			);
+			productName = AdsWebViewUIKitUITests;
+			productReference = 7FE528C52CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE5289D2CAAFF0C0053C7BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7FE528A42CAAFF0C0053C7BB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7FE528BA2CAAFF0D0053C7BB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7FE528A42CAAFF0C0053C7BB;
+					};
+					7FE528C42CAAFF0D0053C7BB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7FE528A42CAAFF0C0053C7BB;
+					};
+				};
+			};
+			buildConfigurationList = 7FE528A02CAAFF0C0053C7BB /* Build configuration list for PBXProject "AdsWebViewUIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FE5289C2CAAFF0C0053C7BB;
+			packageReferences = (
+				7FE528DA2CAB08450053C7BB /* XCRemoteSwiftPackageReference "swift-ads-package" */,
+			);
+			productRefGroup = 7FE528A62CAAFF0C0053C7BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE528A42CAAFF0C0053C7BB /* AdsWebViewUIKit */,
+				7FE528BA2CAAFF0D0053C7BB /* AdsWebViewUIKitTests */,
+				7FE528C42CAAFF0D0053C7BB /* AdsWebViewUIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE528A32CAAFF0C0053C7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE528B22CAAFF0D0053C7BB /* Assets.xcassets in Resources */,
+				7FE528B52CAAFF0D0053C7BB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE528B92CAAFF0D0053C7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE528C32CAAFF0D0053C7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE528A12CAAFF0C0053C7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE528A92CAAFF0C0053C7BB /* AppDelegate.swift in Sources */,
+				7FE528E42CABF4C90053C7BB /* AdsWebViewController.swift in Sources */,
+				7FE528AB2CAAFF0C0053C7BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE528B72CAAFF0D0053C7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE528C02CAAFF0D0053C7BB /* AdsWebViewUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE528C12CAAFF0D0053C7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE528CC2CAAFF0D0053C7BB /* AdsWebViewUIKitUITestsLaunchTests.swift in Sources */,
+				7FE528CA2CAAFF0D0053C7BB /* AdsWebViewUIKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FE528BD2CAAFF0D0053C7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE528A42CAAFF0C0053C7BB /* AdsWebViewUIKit */;
+			targetProxy = 7FE528BC2CAAFF0D0053C7BB /* PBXContainerItemProxy */;
+		};
+		7FE528C72CAAFF0D0053C7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE528A42CAAFF0C0053C7BB /* AdsWebViewUIKit */;
+			targetProxy = 7FE528C62CAAFF0D0053C7BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FE528B32CAAFF0D0053C7BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE528B42CAAFF0D0053C7BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FE528CD2CAAFF0D0053C7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FE528CE2CAAFF0D0053C7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE528D02CAAFF0D0053C7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G333W8CQ6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdsWebViewUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AdsWebViewUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FE528D12CAAFF0D0053C7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G333W8CQ6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdsWebViewUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AdsWebViewUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FE528D32CAAFF0D0053C7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G333W8CQ6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AdsWebViewUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdsWebViewUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdsWebViewUIKit";
+			};
+			name = Debug;
+		};
+		7FE528D42CAAFF0D0053C7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G333W8CQ6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AdsWebViewUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdsWebViewUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdsWebViewUIKit";
+			};
+			name = Release;
+		};
+		7FE528D62CAAFF0D0053C7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G333W8CQ6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AdsWebViewUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdsWebViewUIKit;
+			};
+			name = Debug;
+		};
+		7FE528D72CAAFF0D0053C7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G333W8CQ6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AdsWebViewUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdsWebViewUIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE528A02CAAFF0C0053C7BB /* Build configuration list for PBXProject "AdsWebViewUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE528CD2CAAFF0D0053C7BB /* Debug */,
+				7FE528CE2CAAFF0D0053C7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE528CF2CAAFF0D0053C7BB /* Build configuration list for PBXNativeTarget "AdsWebViewUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE528D02CAAFF0D0053C7BB /* Debug */,
+				7FE528D12CAAFF0D0053C7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE528D22CAAFF0D0053C7BB /* Build configuration list for PBXNativeTarget "AdsWebViewUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE528D32CAAFF0D0053C7BB /* Debug */,
+				7FE528D42CAAFF0D0053C7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE528D52CAAFF0D0053C7BB /* Build configuration list for PBXNativeTarget "AdsWebViewUIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE528D62CAAFF0D0053C7BB /* Debug */,
+				7FE528D72CAAFF0D0053C7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7FE528DA2CAB08450053C7BB /* XCRemoteSwiftPackageReference "swift-ads-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CleverAdvertising/swift-ads-package/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7FE528DB2CAB089E0053C7BB /* swift-ads-package */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FE528DA2CAB08450053C7BB /* XCRemoteSwiftPackageReference "swift-ads-package" */;
+			productName = "swift-ads-package";
+		};
+		7FE528DD2CAB08AF0053C7BB /* swift-ads-package */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FE528DA2CAB08450053C7BB /* XCRemoteSwiftPackageReference "swift-ads-package" */;
+			productName = "swift-ads-package";
+		};
+		7FE528DF2CAB08B90053C7BB /* swift-ads-package */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FE528DA2CAB08450053C7BB /* XCRemoteSwiftPackageReference "swift-ads-package" */;
+			productName = "swift-ads-package";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7FE5289D2CAAFF0C0053C7BB /* Project object */;
+}
